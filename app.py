@@ -18,21 +18,21 @@ gpa = st.number_input(
     "Nilai GPA",
     min_value=0.0,
     max_value=4.0,
-    value=2.5
+    value=0
 )
 
 absences = st.number_input(
     "Jumlah Ketidakhadiran",
     min_value=0,
     max_value=30,
-    value=5
+    value=0
 )
 
 study_time = st.number_input(
     "Jam Belajar per Minggu",
     min_value=0.0,
     max_value=25.0,
-    value=10.0
+    value=0.0
 )
 
 # Data input
