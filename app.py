@@ -18,7 +18,7 @@ gpa = st.number_input(
     "Nilai GPA",
     min_value=0.0,
     max_value=4.0,
-    value=0
+    value=0.0
 )
 
 absences = st.number_input(
