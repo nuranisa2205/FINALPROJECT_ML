@@ -37,9 +37,19 @@ study_time = st.number_input(
 
 # Data input
 input_data = pd.DataFrame({
-    'GPA': [gpa],
-    'Absences': [absences],
-    'StudyTimeWeekly': [study_time]
+    'Age':[0],
+    'Gender':[0],
+    'Ethnicity':[0],
+    'ParentalEducation':[0],
+    'StudyTimeWeekly':[study_time],
+    'Absences':[absences],
+    'Tutoring':[0],
+    'ParentalSupport':[0],
+    'Extracurricular':[0],
+    'Sports':[0],
+    'Music':[0],
+    'Volunteering':[0],
+    'GPA':[gpa]
 })
 
 # Prediksi
